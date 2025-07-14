@@ -1,0 +1,6 @@
+name: "ExamplePlugin"
+overview: "Write a short overview here, this is visible before a user clicks the plugin"
+description: "Write your description here, this entry supports full markdown syntax"
+image_url: "You can provide a preview image of your plugin."
+version: "1.0.0, ETS2LA will check for updates using this version"
+author: "Your Name"
