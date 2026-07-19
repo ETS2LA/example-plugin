@@ -4,9 +4,9 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamplePlugin", "Plugins\ExamplePlugin\ExamplePlugin.csproj", "{00000000-0000-0000-0000-000000000001}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleLibrary", "Libraries\ExamplePlugin\ExampleLibrary.csproj", "{00000000-0000-0000-0000-000000000002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleLibrary", "Libraries\ExampleLibrary\ExampleLibrary.csproj", "{00000000-0000-0000-0000-000000000002}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckLib", "ETS2LA\TruckLib\TruckLib\TruckLib.csproj", "{00000000-0000-0000-0000-000000000010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckLib", "ETS2LA\TruckLib\TruckLib.csproj", "{00000000-0000-0000-0000-000000000010}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{F2E35B3E-9711-EDEC-6202-DB40BDEED14A}"
 EndProject
