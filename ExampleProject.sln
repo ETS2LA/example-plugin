@@ -2,7 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataCollection", "Plugins\DataCollection\DataCollection.csproj", "{00000000-0000-0000-0000-000000000001}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamplePlugin", "Plugins\ExamplePlugin\ExamplePlugin.csproj", "{00000000-0000-0000-0000-000000000001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleLibrary", "Libraries\ExampleLibrary\ExampleLibrary.csproj", "{00000000-0000-0000-0000-000000000002}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckLib", "ETS2LA\TruckLib\TruckLib.csproj", "{00000000-0000-0000-0000-000000000010}"
 EndProject
@@ -32,6 +34,18 @@ Global
 		{00000000-0000-0000-0000-000000000001}.Release|x64.Build.0 = Release|Any CPU
 		{00000000-0000-0000-0000-000000000001}.Release|x86.ActiveCfg = Release|Any CPU
 		{00000000-0000-0000-0000-000000000001}.Release|x86.Build.0 = Release|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Debug|x64.Build.0 = Debug|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Debug|x86.Build.0 = Debug|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Release|x64.ActiveCfg = Release|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Release|x64.Build.0 = Release|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Release|x86.ActiveCfg = Release|Any CPU
+		{00000000-0000-0000-0000-000000000002}.Release|x86.Build.0 = Release|Any CPU
 		{00000000-0000-0000-0000-000000000010}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{00000000-0000-0000-0000-000000000010}.Debug|x64.Build.0 = Debug|Any CPU
 		{00000000-0000-0000-0000-000000000010}.Debug|x86.ActiveCfg = Debug|Any CPU
