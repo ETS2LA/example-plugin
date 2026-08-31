@@ -3,6 +3,8 @@ An example plugin for ETS2LA C#. You can use this as a starting point for you ow
 
 **Note**: This project provides built in tasks for `VSCode`. You can take a look at `.vscode/tasks.json` to see how they work, and modify them to work with your own IDE.
 
+### IMPORTANT: After cloning go into `./ETS2LA` and clone the latest version!
+
 # Usage
 - Clone/Fork the repository, this will also clone ETS2LA as a submodule to `./ETS2LA`. Make sure your IDE is configured to also clone the submodules (or git with `--recurse-submodules`). You can do this manually by running `git submodule update --init --recursive` after cloning, or by checking the "Initialize submodules" option when cloning in GitHub Desktop.
 - Open the solution in your IDE and run the project. This will boot up ETS2LA with your plugin loaded.
