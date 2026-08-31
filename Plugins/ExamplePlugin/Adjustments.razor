@@ -1,0 +1,28 @@
+<!-- Ensure you change developer.plugin -->
+@page "/plugins/adjustments/developer.plugin"
+@using static ETS2LA.Translations.T
+@using ETS2LA.UI.Shared.Components
+@using ETS2LA.State
+@using ETS2LA.Backend.Events
+
+@code {
+    // Whatever is in here is C# code, you can access anything through XX.Current, for example: ApplicationState.Current.DisplayUnits
+    string units = ApplicationState.Current.DisplayUnits.ToString();
+
+    float sliderValue = 50;
+}
+
+<!-- You will *always* have w-108 of space, this is also the width ETS2LA's own settings pages use.
+     Obviously you can do whatever you want, but be aware of the width / height of the page -->
+<div class="flex flex-col w-108 m-5 ml-8 gap-6">
+    <p>This is your plugin's adjustments page.</p>
+    <!-- (at) is used to inject C# into the html -->
+    <p>Current display units: <span class="text-text-accent">@units</span></p>
+    <!-- You can also use components from ETS2LA.UI.Shared, for example the slider -->
+    <Slider Title="My Example Slider"
+            Description="This slides something"
+            Min="0"
+            Max="100"
+            Step="5"
+            @bind-Value="sliderValue" />
+</div>
