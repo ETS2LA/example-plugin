@@ -12,9 +12,8 @@
     float sliderValue = 50;
 }
 
-<!-- You will *always* have w-108 of space, this is also the width ETS2LA's own settings pages use.
-     Obviously you can do whatever you want, but be aware of the width / height of the page -->
-<div class="flex flex-col w-108 m-5 ml-8 gap-6">
+<!-- You will *always* have at least w-108 of space -->
+<div class="flex flex-col min-w-108 w-full m-5 ml-8 gap-6">
     <p>This is your plugin's adjustments page.</p>
     <!-- (at) is used to inject C# into the html -->
     <p>Current display units: <span class="text-text-accent">@units</span></p>
